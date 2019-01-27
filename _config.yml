@@ -294,6 +294,39 @@ defaults:
       share: true
       related: true
 
+
+  # _posts/blogging
+  - scope:
+      path: "_posts/blogging"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      # sidebar:
+      #   nav: sidebar-blogging
+        
+  # _posts/Wargame
+  - scope:
+      path: "_posts/Wargame"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      # sidebar:
+      #   title: "Wargame 카테고리"
+      #   nav: sidebar-wargame
+
+
   # _pages
   - scope:
       path: ""
