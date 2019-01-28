@@ -49,8 +49,9 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  // font-weight: bold;
   z-index: 20;
+  font-size: 1.5rem;
 }
 
 .masthead__menu {

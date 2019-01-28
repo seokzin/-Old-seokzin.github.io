@@ -1,7 +1,7 @@
 ---
 title: "[Webhacking.kr] 14번(100) 문제 풀이"
 categories: 
-  - etc
+  - ETC
 tags: 
   - web
   - webhackinag.kr
