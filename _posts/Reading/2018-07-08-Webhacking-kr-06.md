@@ -1,11 +1,12 @@
 ---
 title: "[Webhacking.kr] 6번(100) 문제 풀이"
 categories: 
-  - Wargame
+  - Reading
 tags: 
   - web
   - webhackinag.kr
 last_modified_at: 2018-07-08T22:53:00+09:00
+sidebar_main: true
 ---
 
 천천히 쉬운문제부터 시작하기로 생각하고 안풀었던 문제부터 풀기 시작했다.

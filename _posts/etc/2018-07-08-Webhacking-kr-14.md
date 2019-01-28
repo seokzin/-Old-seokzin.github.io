@@ -1,11 +1,12 @@
 ---
 title: "[Webhacking.kr] 14번(100) 문제 풀이"
 categories: 
-  - Wargame
+  - etc
 tags: 
   - web
   - webhackinag.kr
 last_modified_at: 2018-07-08T22:53:00+09:00
+sidebar_main: true
 ---
 
 문제를 보면 입력박스 한개, 체크버튼 한개가 보인다.

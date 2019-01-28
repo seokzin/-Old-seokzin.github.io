@@ -2,11 +2,12 @@
 title: "[Pwnable.kr] Toddler's Bottle - fd 풀이"
 excerpt: "pwntools를 사용한 fd 풀이"
 categories: 
-  - Wargame
+  - Blog
 tags: 
   - system
   - Pwnable.kr
 last_modified_at: 2018-07-10T10:30:00+09:00
+sidebar_main: true
 ---
 
 문제
