@@ -109,7 +109,7 @@ author:
   name             : "Seokzin So"
   avatar           : "/assets/images/cat.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "소소한 개발 공부 블로그"
-  location         : "Seoul, Korea"
+  location         : "Seoul"
   email            : 
   links:
     - label: "Email"
