@@ -1,25 +1,22 @@
 ---
-title:  Vanilla JS를 이용하여 To Do List 만들기
+title:  Project 1. Vanilla JS를 이용하여 To Do List 만들기(1)
 categories: 
   - JavaScript
 tags: 
-  - JavaScript,ToDoList
+  - JavaScript
+  - ToDoList
 toc: false
 search: true
 sidebar_main: true
 ---
 
-# Project 1. Vanilla JS를 이용하여 To Do List 만들기(1)
-
-[[유튜브] Nomad Coder - 바닐라 자바스크립트 강의](https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr) 를 참고하여 제작하였다.
+[[유튜브] Nomad Coder - 바닐라 자바스크립트 강의](https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr) 참고.
   
-jQuery를 배우기 전에 자바스크립트의 기본 문법에 대해 공부해야겠다 싶어서  
-자바스크립트의 기본 문법을 이용하여 To Do List를 만들었다.
+jQuery를 배우기 전 자바스크립트의 기본 문법을 이용하여 To Do List를 만들었다.
   
-아직은 코드를 따라 치는 수준이지만 꾸준히 업데이트 하며  
-좀 더 기능적이고 보기 좋게 만들고 싶다..
+아직은 코드를 따라 치는 수준이지만 업데이트 하며 좀 더 실용적이고 보기 좋게 만들 예정이다.
 
-또 만들면서 궁금한 점들도 블로그에 포스팅 할 예정이다!
+만들면서 궁금한 점들도 블로그에 같이 포스팅 해야지!
   
 
 
