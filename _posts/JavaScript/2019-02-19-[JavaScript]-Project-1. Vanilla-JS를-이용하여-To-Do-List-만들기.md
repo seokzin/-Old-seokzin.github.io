@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Vanilla JS를 이용하여 To Do List 만들기
 categories: 
   - JavaScript
