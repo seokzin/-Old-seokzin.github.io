@@ -1,5 +1,5 @@
 ---
-title:  Project 1. Vanilla JS를 이용하여 To Do List 만들기(1)
+title:  Project 1. To Do List 만들기 (1)
 categories: 
   - JavaScript
 tags: 
