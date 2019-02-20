@@ -1,11 +1,8 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "About Me"
-
-last_modified_at: 2018-01-28T12:04:24-04:00
-toc: false  #목차 박스 메뉴
+toc: false
+sidebar_main: true
 ---
 
-### About SO
- Hello world!
+## 풀스택 개발자가 되고 싶은 컴공생의 공부 블로그입니다.
