@@ -13,23 +13,23 @@ search: true
 sidebar_main: true
 ---
 
-기존의 문법인 `var`와 ES6에서 새로 추가 된 `const`, `let` 을 비교한다.
+기존의 문법인 `var`와 ES6에서 새로 추가된 `const`, `let`을 비교한다.
 
-[참고1) [ES6] var, let 그리고 const](http://blog.nekoromancer.kr/2016/01/26/es6-var-let-%EA%B7%B8%EB%A6%AC%EA%B3%A0-const/)  
-[참고2) var, let, const 차이점은?](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
+[참고 1) [ES6] var, let 그리고 const](http://blog.nekoromancer.kr/2016/01/26/es6-var-let-%EA%B7%B8%EB%A6%AC%EA%B3%A0-const/)  
+[참고 2) var, let, const 차이점은?](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
 
 
 ## 1. var
 
 * ES6 이전의 변수 선언 방식이다.
 * 함수 단위의 스코프를 가진다.
-* 다른 언어와 다르게 유연한 방식으로 변수 선언이 가능하지만 이로인해 다음과 같은 문제점들이 생긴다.
+* 다른 언어와 다르게 유연한 방식으로 변수 선언이 가능하지만 이로  인해 다음과 같은 문제점들이 생긴다.
 
 ### 1. 스코프
 
 ```
 var foo='hello';
-if(true)  {
+if(true) {
   var foo = 'hello if';
 }
 
@@ -37,7 +37,7 @@ console.log(foo); // hello if
 ```
 
 만약 위의 구문이 하나의 함수 안에 존재한다고 가정하면,  
-if문 안의 foo와 if문 밖의 foo는 동일한 변수가 되며 값이 변경 된다.
+if문 안의 foo와 if문 밖의 foo는 동일한 변수가 되며 값이 변경된다.
 
 ### 2. 여러 번 선언
 
@@ -59,7 +59,7 @@ console.log(foo); // undefined
 var foo;
 ```
 
-선언보다 호출이 먼저 있었음에도, 호이스팅 현상에 의해  정상적으로 코드가 실행 된다.
+선언보다 호출이 먼저 있었음에도, 호이스팅 현상에 의해  정상적으로 코드가 실행된다.
 
 
 ## 2. const
@@ -79,7 +79,7 @@ bar[0] = 10;
  
 console.log(foo, bar) // [10, 1, 2] [10, 1, 2]
 ```
-참조형은 const로 선언하더라도 멤버값을 조작하는 것이 가능하다.
+참조형은 const로 선언하더라도 멤버 값을 조작하는 것이 가능하다.
 
 
 ## 3. let
