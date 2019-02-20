@@ -17,7 +17,7 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-$noto-serif: 'Noto Serif KR', serif;
+$noto-sans: 'Noto Sans KR', sans-serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -30,9 +30,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $noto-serif !default;
-$header-font-family: $noto-serif !default;
-$caption-font-family: $noto-serif !default;
+$global-font-family: $noto-sans !default;
+$header-font-family: $noto-sans !default;
+$caption-font-family: $noto-sans !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
