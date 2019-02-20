@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seokzin.github.io/sitemap.xml
