@@ -17,7 +17,7 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-$noto-serif: <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,700&amp;subset=korean" rel="stylesheet">
+$noto-serif: 'Noto Serif KR', serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -31,7 +31,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $noto-serif !default;
-$header-font-family: $snoto-serif !default;
+$header-font-family: $noto-serif !default;
 $caption-font-family: $noto-serif !default;
 
 /* type scale */
