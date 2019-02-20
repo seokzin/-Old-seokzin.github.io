@@ -9,16 +9,14 @@ toc: false
 search: true
 sidebar_main: true
 ---
-
-[[유튜브] Nomad Coder - 바닐라 자바스크립트 강의](https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr) 참고.
   
 jQuery를 배우기 전 자바스크립트의 기본 문법을 이용하여 To Do List를 만들었다.
   
 아직은 코드를 따라치는 수준이지만 업데이트하며 좀 더 실용적이고 보기 좋게 만들 예정이다.
 
 만들면서 궁금한 점들도 블로그에 같이 포스팅해야지!
-  
 
+[참고) Nomad Coder - 바닐라 자바스크립트](https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr)
 
 
 ![ToDo List Ver1.01](/assets/images/190219_1.jpg)
