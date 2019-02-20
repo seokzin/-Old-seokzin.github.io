@@ -46,43 +46,43 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 
 ### 하나의 요소 노드 선택
 
-* document.getElementById(id)
+* `document.getElementById(id)`
   * id 값으로 요소 노드 한 개를 선택한다. 
   * 여러 개가 선택된 경우 첫번째 요소만 반환한다.
 
-* document.querySelector(cssSelector)
+* `document.querySelector(cssSelector)`
   * CSS 선택자로 요소 노드 한 개를 선택한다.
   * 여러 개가 선택된 경우 첫 번째 요소만 반환한다.  
 
 ### 여러 개의 요소 노드 선택
   
-* document.getElementsByClassName(class)
+* `document.getElementsByClassName(class)`
   * class 값으로 요소 노드를 모두 선택한다.
   * 공백을 사용하면 여러 개의 class를 지정할 수 있다.
   * HTMLCollection 형태로 반환한다.  
 
-* document.getElementsByTagName(tagName)
+* `document.getElementsByTagName(tagName)`
   * 태그 명으로 요소 노드를 모두 선택한다.
   * HTMLCollection 형태로 반환한다.
 
-* document.querySelectorAll(selector)
+* `document.querySelectorAll(selector)`
   * CSS 선택자로 요소 노드를 모두 선택한다.
   * NodeList 형태로 반환한다. 
 
 ### 탐색
 
-* parentNode
+* `parentNode`
   * 부모 노드를 탐색한다.
 
-* firstChild, lastChild
+* `firstChild, lastChild`
   * 자식 노드를 탐색한다.
   * 공백, 줄 바꿈도 텍스트 노드 취급당하므로 주의한다.
 
-* childNodes
+* `childNodes`
   * 자식 노드의 컬렉션을 반환한다.
   * NodeList 형태로 반환한다.
 
-* children
+* `children`
   * 자식 노드의 컬렉션을 반환한다.
   * HTMLCollection 형태로 반환한다.
 
@@ -103,28 +103,28 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 
 텍스트 노드는 부모 노드를 거쳐 탐색되어야 한다.
 
-* nodeValue
+* `nodeValue`
   * 텍스트 노드는 문자열, 요소 노드는 null을 반환한다.
   * 텍스트 노드의 유일한 프로퍼티이다.
 
 ### 속성 노드에 접근 및 수정 
 
-* className
+* `className`
   * class 값을 얻거나 변경한다.
   * class 값이 여러개인 경우 공백으로 구분된 문자열이 반환된다.
   * 값을 할당할 때 class 속성이 존재하지 않으면 class 속성을 생성한 후 값을 할당한다.
 
-* id
+* `id`
   * id 값을 얻거나 변경한다.
   * 값을 할당할 때 id 속성이 존재하지 않으면 id 속성을 생성한 후 값을 할당한다.
 
 ### HTML 콘텐츠 조작
 
-* textContent
+* `textContent`
   * 요소의 텍스트 콘텐츠를 얻거나 변경한다. 마크업은 무시된다.
   * 값 변경시 마크업을 포함시키면 문자열로 인식되어 그대로 출력된다.
 
-* innerText
+* `innerText`
   * 마크업을 제외한 문자열을 리턴한다.
   * 값을 변경할 땐 마크업을 그대로 추가해야 한다.  
   * 마크업을 포함해 값을 추가하는 것은 XSS에 취약하다. 
@@ -133,7 +133,7 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
     * CSS에 순종적이다.
     * CSS를 고려해야 하므로 textContent 보다 느리다.
 
-* innerHTML
+* `innerHTML`
   * 자식요소를 하나의 문자열로 얻는다.
   * 마크업을 포함하여 리턴한다.
   * 마크업을 포함해 값을 추가하는 것은 XSS에 취약하다.
@@ -142,13 +142,13 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 
 innerHTML을 사용하지 않고 새로운 콘텐츠를 추가하는 방법이다.
 
-* createElement(tagName)
+* `createElement(tagName)`
   * 태그이름을 인자로 전달하여 요소를 생성한다.
-* createTextNode(text)
+* `createTextNode(text)`
   * 텍스트를 인자로 전달하여 텍스트 노드를 생성한다.
-* appendChild(Node)
+* `appendChild(Node)`
   * 인자로 전달한 노드를 마지막 자식 요소로 DOM 트리에 추가한다.
-* removeChild(Node)
+* `removeChild(Node)`
   * 인자로 전달한 노드를 DOM 트리에 제거한다.
 
 ### innerHTML 과 DOM 조작 방식 비교
