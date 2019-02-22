@@ -16,13 +16,18 @@ jQuery를 배우기 전 자바스크립트의 기본 문법을 이용하여 To D
 
 만들면서 궁금한 점들도 블로그에 같이 포스팅해야지!
 
-[참고) Nomad Coder - 바닐라 자바스크립트](https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr)
+---
 
-
-![ToDo List Ver1.01](/assets/images/190219_1.jpg)
+![ver1.01](/assets/images/190219_1.jpg)
 
 * To Do List (Ver 1.01)
 
   * 실시간 시계 기능
   * 리스트 입력, 삭제
   * 사용자 이름, 리스트를 로컬 스토리지에 저장
+
+---
+
+## Reference
+
+* https://www.youtube.com/playlist?list=PLLUCyU7SBaR7tOMe-ySJ5Uu1UlEBznxTr

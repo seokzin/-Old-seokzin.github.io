@@ -10,13 +10,6 @@ search: true
 sidebar_main: true
 ---
 
-참고할 목적으로 정리하는 글이다 보니 설명은 거의 없다.
-
-
-* 참고  
-[poiemaWeb - DOM](https://poiemaweb.com/js-dom)
-
-
 ## DOM (Document Object Model)
 
 브라우저는 웹 문서를 로드한 후, 파싱하여 DOM을 생성한다.  
@@ -25,6 +18,7 @@ DOM은 모든 요소, 속성, 텍스트를 객체로 만들어 이 객체들을 
 
 정적인 웹페이지를 변경하는 유일한 방법은 DOM을 변경하는 것이며, 이때 필요한 것이 DOM API이다.
 
+---
 
 ## DOM tree 구성요소
 
@@ -33,6 +27,7 @@ DOM은 모든 요소, 속성, 텍스트를 객체로 만들어 이 객체들을 
 3. 속성 노드(Attribute Node) - HTML 요소의 속성을 표현한다.
 4. 텍스트 노드(Text Node) - HTML 요소의 텍스트를 표현한다. 자식을 가질 수 없다.
 
+---
 
 ## DOM API
 
@@ -40,11 +35,11 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 
 1. 조작하고자하는 요소를 선택 또는 탐색한다.
 2. 선택된 요소의 콘텐츠 또는 어트리뷰트를 조작한다.  
-
+<br><br>
 
 ## 1. 요소 선택 및 탐색
 
-### 하나의 요소 노드 선택
+### 1-1. 하나의 요소 노드 선택
 
 * `document.getElementById(id)`
   * id 값으로 요소 노드 한 개를 선택한다. 
@@ -53,8 +48,9 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 * `document.querySelector(cssSelector)`
   * CSS 선택자로 요소 노드 한 개를 선택한다.
   * 여러 개가 선택된 경우 첫 번째 요소만 반환한다.  
+<br><br><br>
 
-### 여러 개의 요소 노드 선택
+### 1-2. 여러 개의 요소 노드 선택
   
 * `document.getElementsByClassName(class)`
   * class 값으로 요소 노드를 모두 선택한다.
@@ -68,8 +64,9 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 * `document.querySelectorAll(selector)`
   * CSS 선택자로 요소 노드를 모두 선택한다.
   * NodeList 형태로 반환한다. 
+<br><br><br>
 
-### 탐색
+### 1-3. 탐색
 
 * `parentNode`
   * 부모 노드를 탐색한다.
@@ -85,8 +82,9 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 * `children`
   * 자식 노드의 컬렉션을 반환한다.
   * HTMLCollection 형태로 반환한다.
+<br><br><br>
 
-### 참고) HTMLCollection 과 NodeList 비교 [(MDN)](https://developer.mozilla.org/ko/docs/Web/API/NodeList)
+### HTMLCollection 과 NodeList 비교 [(MDN)](https://developer.mozilla.org/ko/docs/Web/API/NodeList)
 
   * HTMLCollection (live)
     * 유사 배열
@@ -95,19 +93,20 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
   * NodeList (non-live)
     * 유사 배열
     * 경우에 따라 라이브 컬렉션이 되기도 한다.
-  
+<br><br><br><br><br>
     
 ## 2. 조작
 
-### 텍스트 노드에 접근 및 수정
+### 2-1. 텍스트 노드에 접근 및 수정
 
 텍스트 노드는 부모 노드를 거쳐 탐색되어야 한다.
 
 * `nodeValue`
   * 텍스트 노드는 문자열, 요소 노드는 null을 반환한다.
   * 텍스트 노드의 유일한 프로퍼티이다.
+<br><br><br>
 
-### 속성 노드에 접근 및 수정 
+### 2-2. 속성 노드에 접근 및 수정 
 
 * `className`
   * class 값을 얻거나 변경한다.
@@ -117,8 +116,9 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
 * `id`
   * id 값을 얻거나 변경한다.
   * 값을 할당할 때 id 속성이 존재하지 않으면 id 속성을 생성한 후 값을 할당한다.
+<br><br><br>
 
-### HTML 콘텐츠 조작
+### 2-3. HTML 콘텐츠 조작
 
 * `textContent`
   * 요소의 텍스트 콘텐츠를 얻거나 변경한다. 마크업은 무시된다.
@@ -137,8 +137,9 @@ DOM을 통해 웹페이지를 조작하려면 다음 순서에 맞게 API를 사
   * 자식요소를 하나의 문자열로 얻는다.
   * 마크업을 포함하여 리턴한다.
   * 마크업을 포함해 값을 추가하는 것은 XSS에 취약하다.
+<br><br><br>
 
-### DOM 조작 방식
+### 2-4. DOM 조작 방식
 
 innerHTML을 사용하지 않고 새로운 콘텐츠를 추가하는 방법이다.
 
@@ -150,6 +151,7 @@ innerHTML을 사용하지 않고 새로운 콘텐츠를 추가하는 방법이�
   * 인자로 전달한 노드를 마지막 자식 요소로 DOM 트리에 추가한다.
 * `removeChild(Node)`
   * 인자로 전달한 노드를 DOM 트리에 제거한다.
+<br><br><br>
 
 ### innerHTML 과 DOM 조작 방식 비교
 
@@ -161,7 +163,12 @@ innerHTML을 사용하지 않고 새로운 콘텐츠를 추가하는 방법이�
 * DOM 조작 방식
   * 특정 노드 한 개를 추가할 때 적합하다.
   * innerHTML보다 느리고 많은 코드가 필요하다.
-
-#### 결론
-
+<br><br><br>
+* 결론  
 innerHTML은 XSS에 취약하다는 단점때문에 텍스트 추가 또는 변경시에는 textContent, 새로운 요소 추가 또는 삭제시에는 DOM 조작방식을 사용하도록 한다.
+
+---
+
+## Reference
+
+* https://poiemaweb.com/js-dom
