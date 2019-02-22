@@ -49,7 +49,7 @@ $type-size-8: 0.625em !default; // ~10px
    Colors
    ========================================================================== */
 
-$gray: #7a8288 !default;
+$gray: #9baab6fb !default;
 $dark-gray: mix(#000, $gray, 40%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
@@ -60,7 +60,7 @@ $code-background-color: #eeeeee !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
-$border-color: $lighter-gray !default;
+$border-color: $light-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
