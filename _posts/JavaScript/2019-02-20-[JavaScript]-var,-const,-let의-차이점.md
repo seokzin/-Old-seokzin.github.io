@@ -1,5 +1,5 @@
 ---
-title:  var, const, let의 차이점
+title: [JavaScript] var, const, let의 차이점
 categories: 
   - JavaScript
 tags: 

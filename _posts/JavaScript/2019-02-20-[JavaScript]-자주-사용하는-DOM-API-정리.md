@@ -1,5 +1,5 @@
 ---
-title:  자주 사용하는 DOM API 정리
+title: [JavaScript] 자주 사용하는 DOM API 정리
 categories: 
   - JavaScript
 tags: 
