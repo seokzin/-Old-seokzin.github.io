@@ -1,5 +1,5 @@
 ---
-title: [JavaScript] JavaScript 명명 규칙 (Coding Conventions)
+title:  [JavaScript] JavaScript 명명 규칙 (Coding Conventions)
 categories: 
   - JavaScript
 tags: 
