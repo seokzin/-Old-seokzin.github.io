@@ -111,6 +111,8 @@ author:
   bio              : "소소한 개발 공부 블로그"
   location         : 
   email            : 
+  uri              : 
+  home             : "https://seokzin.github.io/" # null (default), "absolute or relative url to link to author home"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
